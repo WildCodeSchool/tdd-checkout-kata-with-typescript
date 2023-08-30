@@ -61,8 +61,8 @@ _Double-check whether your code can be refactored._ (REFACTOR)
 
 When both tests pass, add the following tests, one at a time, making sure each one passes before tackling the next one:
 
-> should return 30 when providing a B
-> should return 20 when providing a C
+> should return 30 when providing a B<br>
+> should return 20 when providing a C<br>
 > should return 15 when providing a D
 
 If you find room for refactoring, don't forget to do so.
@@ -72,7 +72,7 @@ Note: At this stage, your implementation does not yet need to cover sequences of
 
 You should now have 5 tests passing. Your next tests are the following:
 
-> should return 30 when providing two D
+> should return 30 when providing two D<br>
 > should return 115 when providing one of each (ABCD)
 
 Note: If all you did was adding more conditional statements to check for specific "DD" and "ABCD" cases, you _need_ to go back and refactor your code. Tests never cover all possibilities, but at this stage any single or multiple-letter input should provide the expected result. (e.g. AABCD should do the same as DCABA). Feel free to add additional tests if you think it's needed.
